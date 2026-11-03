@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Never commit footage, keypoints of real players, or model files
+models/*.task
+data/
+clips/
+out/
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.npz
